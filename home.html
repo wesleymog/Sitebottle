@@ -1,0 +1,38 @@
+% include('header.tpl', title='Page Title')
+        <div class="container">
+           <div class="row">
+               <div class="col-md-8 col-md-offset-2">
+                   <div class="panel panel-default">
+                       <div class="panel-heading">Notícias</div>
+                       <div class="panel-body">
+                          %for linha in result:
+                          <div class="noticias" >
+                            
+                                %for obj in linha:
+
+                                    %if x==0:
+                                        %x=x+1
+                                    %elif x==1:
+                                        <h1>{{obj}}</h1>
+                                        %x=x+1
+                                    %elif x==2:
+                                        <p>{{obj}}</p>
+                                        %x=x+1
+                                    %elif x==3:
+                                        <img src={{obj}}></div>
+                                        %x=x-3
+                                        %y=y+1
+                                        %if len(result)==y:
+
+
+
+
+                      </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+   </div>
+
+% include('footer.tpl')
