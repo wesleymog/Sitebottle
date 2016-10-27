@@ -8,8 +8,9 @@ cursor.execute("""
 CREATE TABLE noticias (
         id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
         titulo TEXT NOT NULL,
-        conteudo LONGTEXT NOT NULL,
-        imagem longblob 
+        autor TEXT NOT NULL,
+        curso TEXT NOT NULL,
+        conteudo LONGTEXT NOT NULL
 );
 """)
 
