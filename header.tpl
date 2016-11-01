@@ -9,19 +9,14 @@
 
   </head>
   <body>
+    <header>
+            <div class="cabec">
 
-        <div class="container-fluid">
-          <header>
-            <div class="cabecalho container tamanhototal">
+                <img class="col-xs-2 col-md-2 col-lg-2 img-responsive ufrjlog" src="/img/003minerva_transparente_vertical.png" width="50px">
+                <h1 class="col-xs-4 col-xs-offset-3 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-4">Voz da UFRJ</h1>
 
-                <img class="col-xs-1 col-md-1 col-lg-1 img-responsive ufrjlog" src="/img/003minerva_transparente_vertical.png" width="50px">
-                <h1 class="col-xs-4 col-xs-offset-3 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-3">Voz da UFRJ</h1>
-                <div class="col-xs-4 col-md-4 col-lg-4">
-
-
-                </div>
             </div>
-          </div>
+
             <nav class="navbar navbar-default">
   <!-- <div class="container-fluid"> -->
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,15 +33,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <li><a href="/criar">Criar um nova notícia</a></li>
+
 
       </ul>
 
 
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
 </nav>
 
 
         </header>
+<div class="container contColor">

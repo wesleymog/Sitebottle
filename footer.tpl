@@ -5,9 +5,9 @@
         <div class="col-xs-3 elementos_footer">
             <ul class="list-unstyled">
                 <li><p class="titulo_footer">Links úteis</p></li>
-                <li><a href="#">Site UFRJ</a></li>
-                <li><a href="#">Grade Cursos</a></li>
-                <li><a href="#">Bolsas</a></li>
+                <li><a href="https://ufrj.br/">Site UFRJ</a></li>
+                <li><a href="https://www.siga.ufrj.br/sira/repositorio-curriculo/ListaCursos.html">Grade Cursos</a></li>
+                <li><a href="http://superest.ufrj.br/index.php/programa-de-bolsas">Bolsas</a></li>
             </ul> </div>
         <div class="col-xs-6 elementos_footer"><p class="titulo_footer">Sobre Nós</p>
                 <p>O Voz da UFRJ foi criado por alunos que perceberam a necessidade de ampliar o conhecimento das pessoas sobre seu
@@ -26,8 +26,5 @@
     </footer>
 </div>
 
-<script src='java/app.js'></script>
-<script src='java/dropdown.js'></script>
-<script src='java/select.js'></script>
 </body>
 </html>

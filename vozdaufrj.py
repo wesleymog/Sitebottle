@@ -15,7 +15,7 @@ def index():
     x=0
     conn = sqlite3.connect('vozdaufrj.db')
     c = conn.cursor()
-    c.execute("SELECT * FROM noticias ORDER BY `id`DESC;")
+    c.execute("SELECT * FROM noticias ORDER BY `id`DESC limit 10;")
     result = c.fetchall()
     c.close()
 
@@ -23,14 +23,14 @@ def index():
 @route('/criar', method="GET")
 def index():
     if request.GET.save:
-        print 'Eis me aqui'
+
         titulo = request.GET.titulo.strip()
         conteudo=request.GET.conteudo.strip()
         autor=request.GET.autor.strip()
         curso=request.GET.curso.strip()
         conn = sqlite3.connect('vozdaufrj.db')
         c = conn.cursor()
-        print (titulo)
+
 
         c.execute("INSERT INTO noticias (titulo,autor,curso,conteudo) VALUES (?,?,?,?)", (titulo,autor,curso,conteudo))
 
