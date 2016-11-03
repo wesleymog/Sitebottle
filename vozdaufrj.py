@@ -8,8 +8,6 @@ def server_static(filename):
 def server_static(filename):
     return static_file(filename, root='./estilo/')
 @route('/java/<filename>')
-def server_static(filename):
-    return static_file(filename, root='./js/')
 @route('/')
 def index():
     x=0

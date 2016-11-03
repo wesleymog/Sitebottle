@@ -10,10 +10,8 @@
                 <li><a href="http://superest.ufrj.br/index.php/programa-de-bolsas">Bolsas</a></li>
             </ul> </div>
         <div class="col-xs-6 elementos_footer"><p class="titulo_footer">Sobre Nós</p>
-                <p>O Voz da UFRJ foi criado por alunos que perceberam a necessidade de ampliar o conhecimento das pessoas sobre seu
-                curso de interesse.</p>
-                <p>Para isso, disponibilizamos o acesso as avaliações e comentários feitos por pessoas que estão
-                cursando a graduação.</p></div>
+                <p>O Voz da UFRJ foi criado pelo aluno Wesley Mota que percebeu a necessidade de ampliar o conhecimento das pessoas sobre os acontecimentos na faculdade.</p>
+                <p>Para isso, disponibilizamos o acesso a notícias feitas pelos alunos da graduação.</p></div>
         <div class="col-xs-3 elementos_footer">
             <p class="titulo_footer">Redes Sociais</p>
             <img src="/img/facebook.png" width="50px" height="50px">
